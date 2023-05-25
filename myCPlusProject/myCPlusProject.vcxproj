@@ -151,7 +151,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="developer.cpp" />
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="myCPlusProject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="developer.h" />
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="iDev.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
